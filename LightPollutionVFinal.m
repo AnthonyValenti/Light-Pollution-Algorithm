@@ -1,10 +1,11 @@
 %%Algo Steps%%
-%1. Convert image to the LAB Colour Space
-%2. Inverse the image and dehaze using Contrast Enahancment
-%3. Inverse again to return to normal colour's
-%4. Determine the image background
-%5. Subtract background from the image
-%6. Sharpen the image
+%1. Resize Image
+%2. Convert image to the LAB Colour Space
+%3. Inverse the image and dehaze using Contrast Enahancment
+%4. Inverse again to return to normal colour's
+%5. Determine the image background
+%6. Subtract background from the image
+%7. Sharpen the image
 
 I = imread('pollution4.jpg');
 I = imresize(I,[400 600]);
